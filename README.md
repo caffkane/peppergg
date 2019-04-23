@@ -50,8 +50,8 @@ Show examples of usage:
 * To Do CRUD
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Finish Views + get redux to interact with django
+* Add webpack
 
 ## Status
 Project is: _in progress_
