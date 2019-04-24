@@ -1,11 +1,9 @@
 # peppergg - React.js To-Do App
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 > An assignment from Pepper.gg. Using React + Redux to integrate with Django API on the backend.
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
+* [Requirements](#requirements)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -14,44 +12,31 @@
 ## General info
 This project was an assignment from pepper.gg to complete a set of tasks using React + Redux to interface with Django to create a fully featured to do application that is hosted on Ubuntu. 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-
-## Technologies
-* React.js - v
-* Redux - v
-* Django - v2.x
-* Python - v3.7.x
-* SQLite3 - vx
-* Heroku - v7.22.4
+## Requirements
+* Python3
+* Pipenv
 
 ## Setup
 ```
-For Mac: curl https://install.meteor.com/ | sh
-brew tap heroku/brew && brew install heroku
 git clone git@github.com:tekm/peppergg.git
 cd peppergg
+pipenv shell
+pipenv install
+cd frontend
 npm install
-npm
 In Browser: localhost:3000
 ```
-Or Use Heroku Deploy Button
+Then for Setup
+You will need two terminals pointed to the frontend and backend directories to start the servers for this application.
 
-Demo:
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+1. Run this command to start the backend server in the ```[backend]``` directory: ```[python manage.py runserver]``` (You have to run this command while you are sourced into the virtual environment)
+2. Run this command to start the frontend development server in the ```[frontend]``` directory: ```[npm install]``` (This will start the frontend on the adddress [localhost:3000](http://localhost:3000))
 
 ## Features
 * To do in table view
 * Sort by date descending order
 * Highlighting of past and present to do's
 * To Do CRUD
-
-To-do list:
-* Finish Views + get redux to interact with django
-* Add webpack
 
 ## Status
 Project is: _in progress_
