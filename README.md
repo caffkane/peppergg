@@ -39,7 +39,7 @@ You will need two terminals pointed to the frontend and backend directories to s
 * To Do CRUD
 
 ## Status
-Project is: _in progress_
+Project is: _complete_
 
 ## Contact
 Email: logan.kane1@gmail.com\
